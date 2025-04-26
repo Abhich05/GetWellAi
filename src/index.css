@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, 'sans-serif';
+  background: #fafcff;
+}
+
+h1, h2, h3, h4, h5, h6, .MuiTypography-h2, .MuiTypography-h3, .MuiTypography-h4, .MuiTypography-h5, .MuiTypography-h6 {
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiButton-root {
+  text-transform: none !important;
+  font-weight: bold;
+}
